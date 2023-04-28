@@ -37,9 +37,9 @@ const Header = () => {
                 {/* Section 2  */}
 
                 <div className='container mx-auto  '>
-                    <div className='grid grid-cols-2 lg:gap-36 text-white lg:pt-20 items-center p-20 ' >
-                        <div>
-                            <h1 className='text-[64px] mb-[476px]'>Just like grandma used to make</h1>
+                    <div className='grid grid-cols-2 2xl:gap-36 gap-10  text-white lg:pt-20 items-center p-20 ' >
+                        <div className='mb-[476px]'>
+                            <h1 className='xl:text-[64px] lg:text-[48px]   w-full'>Just like grandma used to make</h1>
 
                         </div>
                         <div className='mb-[476px]'>
