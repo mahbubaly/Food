@@ -20,11 +20,14 @@ const Section_2 = () => {
                     </div>
 
                 </div>
-                <div className='relative xl:-top-[700px] xl:left-52 left-4 -top-[600px] gap-20 justify-center flex items-center'>
+                <div className='relative xl:-top-[700px] xl:left-52 left-14 -top-[550px] xl:gap-20 justify-center flex items-center'>
+
+
                     <div className='awards  p-11'>
                         <h1 className='font-bold text-[36px]'>200+ International Awards</h1>
                         <p>Wasier to reach your savings goals when you have the right savings.</p>
                     </div>
+
                     <img src={img2} alt="" />
                 </div>
             </div>
