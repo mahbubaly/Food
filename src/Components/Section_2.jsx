@@ -10,8 +10,8 @@ const Section_2 = () => {
             <div className='container mx-auto'>
                 <div className='grid grid-cols-2 items-center gap-20 p-4'>
                     <div>
-                        <h1 className='text-[48px] font-semibold mb-7'>Tastes So Good, Cats Ask for It By Name"</h1>
-                        <p className='text-lg'>It’s easier to reach your savings goals when you have the right savi ngs,asier to reach your savings goals when you have the right savings.It’s easier to reach your savings goals when you have the right savi ngs.reach your savings goals when you have the right savings.It’s easier to reach your savings goals when you have the right savi ngs.</p>
+                        <h1 className='text-[48px] font-semibold mb-7 leading-loose'>Tastes So Good, Cats Ask for It By Name"</h1>
+                        <p className='text-lg leading-loose'>It’s easier to reach your savings goals when you have the right savi ngs,asier to reach your savings goals when you have the right savings.It’s easier to reach your savings goals when you have the right savi ngs.reach your savings goals when you have the right savings.It’s easier to reach your savings goals when you have the right savi ngs.</p>
 
                     </div>
                     <div>

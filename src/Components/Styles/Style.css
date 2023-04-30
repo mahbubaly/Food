@@ -47,9 +47,9 @@
     justify-content: center;
     align-items: center;
     padding: 18px 40px;
-    
 
-   
+
+
     width: 170px;
     height: 54px;
     left: 0px;
@@ -58,4 +58,44 @@
     background: #ADFD97;
     box-shadow: 0px 10px 30px rgba(4, 20, 52, 0.1);
     border-radius: 92px;
+}
+
+
+.box-menu:hover {
+    box-shadow: 0px 0px 0px 5px #ADFD97
+}
+
+
+.services {
+    box-sizing: border-box;
+    background-image: url(../../images//service_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(40px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+}
+
+.contact-bg {
+    background-image: url(../../images/contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.input-section {
+    background: #111111;
+    border: 1px solid white;
+    backdrop-filter: blur(40px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.7);
+
 }
