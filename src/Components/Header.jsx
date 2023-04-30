@@ -24,7 +24,7 @@ const Header = () => {
                             <Link className='text-white text-lg hover:text-primary'>Menue</Link>
                             <Link className='text-white text-lg hover:text-primary'>Blog</Link>
                             <Link className='text-white text-lg hover:text-primary'>Contact us</Link>
-                            <Link className='text-black text-[16px] font-bold text-center  '><button className='rounded-3xl p-3 btn-primary'>Get Started</button></Link>
+                            <Link className=''><button className='btn-all text-black  font-bold text-[16px]'>Get Started</button></Link>
 
                         </div>
                     </div>
@@ -44,7 +44,7 @@ const Header = () => {
                         </div>
                         <div className='mb-[476px]'>
                             <h1 className='text-2xl '>It’s easier to reach your savings goals when you have the right savi ngs,asier to reach your goals.</h1>
-                            <Link className='text-black text-[18px] font-bold text-center '><button className='rounded-3xl  p-4 justify-center items-center btn-primary my-12 '>Explore All</button></Link>
+                            <Link className='text-black text-[18px] font-bold text-center '><button className='btn-all text-black mt-[25px] font-bold text-[16px] my-12 '>Explore All</button></Link>
 
                         </div>
                     </div>

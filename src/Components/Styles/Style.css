@@ -22,3 +22,40 @@
     border-radius: 10px;
 
 }
+
+
+.menu {
+    background-image: url(../../images/manu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-items {
+    background: rgba(255, 255, 255, 0.29);
+    box-shadow: 0px 20px 22px rgba(209, 209, 209, 0.09);
+    backdrop-filter: blur(40px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+
+}
+
+.btn-all {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 40px;
+    
+
+   
+    width: 170px;
+    height: 54px;
+    left: 0px;
+    top: 0px;
+
+    background: #ADFD97;
+    box-shadow: 0px 10px 30px rgba(4, 20, 52, 0.1);
+    border-radius: 92px;
+}
