@@ -21,7 +21,7 @@ const Service_section = () => {
 
                         <div className='flex justify-between gap-5 relative top-11'>
                             {/* Free service */}
-                            <div className='services bg-black  px-5 py-10'>
+                            <div className='services bg-black  px-5 py-10 box-menu'>
                                 <img className='mb-5' src={car} alt="" />
                                 <h1 className='text-2xl font-semibold text-white leading-loose '>Free Delivery</h1>
                                 <p className='text-white mt-[10px] leading-loose'>It’s easier to reach your savings goals when you have the right savi ngs,asier to reach your savings goals when you have the right savings.It’s easier to reach your savings goals when you have the right savi ngs.</p>
@@ -29,7 +29,7 @@ const Service_section = () => {
                             </div>
 
                             {/* Table Service */}
-                            <div className='services bg-black  px-5 py-10'>
+                            <div className='services bg-black  px-5 py-10 box-menu'>
                                 <img className='mb-5' src={table} alt="" />
                                 <h1 className='text-2xl font-semibold text-white leading-loose'>Table Service</h1>
                                 <p className='text-white mt-[10px] leading-loose'>It’s easier to reach your savings goals when you have the right savi ngs,asier to reach your savings goals when you have the right savings.It’s easier to reach your savings goals when you have the right savi ngs.</p>
@@ -46,7 +46,7 @@ const Service_section = () => {
 
 
                 <div className='mt-[130px] flex '>
-                    <div className='contact-bg bg-black py-[80px] px-[76px] xl:w-[560px]  relative top-24 left-36'>
+                    <div className='contact-bg bg-black py-[80px] px-[76px] xl:w-[560px] box-menu  relative top-24 left-36'>
                         {/* <h1 className='font-bold text-[48px] text-white'>Contact us</h1>
                         <input className='input-section xl:w-[460px]  p-4 bg-black text-white ' placeholder='Name' type="text" />
                         <input className='input-section xl:w-[460px] my-[25px]  p-4 bg-black text-white ' placeholder='Email Address' type="email" />
