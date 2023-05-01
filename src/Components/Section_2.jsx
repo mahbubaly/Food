@@ -8,13 +8,13 @@ const Section_2 = () => {
     return (
         <>
             <div className='container mx-auto'>
-                <div className='grid grid-cols-2 items-center gap-20 p-4'>
-                    <div>
-                        <h1 className='text-[48px] font-semibold mb-7 leading-loose'>Tastes So Good, Cats Ask for It By Name"</h1>
-                        <p className='text-lg leading-loose'>It’s easier to reach your savings goals when you have the right savi ngs,asier to reach your savings goals when you have the right savings.It’s easier to reach your savings goals when you have the right savi ngs.reach your savings goals when you have the right savings.It’s easier to reach your savings goals when you have the right savi ngs.</p>
+                <div className='grid lg:grid-cols-2 grid-cols-1 items-center gap-20 p-4'>
+                    <div className='lg:order-1 order-2 lg:my-0 '>
+                        <h1 className='lg:text-[48px] text-[32px] font-semibold mb-7 leading-loose'>Tastes So Good, Cats Ask for It By Name"</h1>
+                        <p className='text-lg  leading-loose'>It’s easier to reach your savings goals when you have the right savi ngs,asier to reach your savings goals when you have the right savings.It’s easier to reach your savings goals when you have the right savi ngs.reach your savings goals when you have the right savings.It’s easier to reach your savings goals when you have the right savi ngs.</p>
 
                     </div>
-                    <div>
+                    <div className='lg:order-2 order-1 p-5 lg:p-0'>
                         <img src={img} alt="" />
 
 
@@ -29,15 +29,15 @@ const Section_2 = () => {
 
 
                 {/* International awards */}
-                <div className='-mt-[300px] xl:ml-80  lg:ml-48   justify-center flex items-center'>
+                <div className='lg:-mt-[300px]  xl:ml-80  lg:ml-48 lg:p-0 p-5  justify-center lg:flex items-center'>
 
 
-                    <div className='awards  xl:p-11 lg:p-4 mt-4 lg:mt-10'>
-                        <h1 className='font-bold text-[36px]  xl:mt-0 lg:text-center'>200+ International Awards</h1>
-                        <p>Wasier to reach your savings goals when you have the right savings.</p>
+                    <div className='awards  xl:p-11 lg:p-4 p-5 mt-4 lg:mt-10  '>
+                        <h1 className='font-bold lg:text-[36px] text-[16px]  xl:mt-0 lg:text-center text-left '>200+ International Awards</h1>
+                        <p >Wasier to reach your savings goals when you have the right savings.</p>
                     </div>
 
-                    <img className='' src={img2} alt="" />
+                    <img className='lg:mt-0 mt-6' src={img2} alt="" />
                 </div>
             </div>
 

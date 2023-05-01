@@ -7,7 +7,7 @@ const Footer = () => {
             <div className='header bg-black'>
                 <div className='container mx-auto '>
 
-                    <footer className="footer p-24 text-white -mt-24">
+                    <footer className="footer  lg:p-24 p-6 text-white -mt-24 ">
                         <div>
                             <img src={logo} className='' alt="" />
 
@@ -55,9 +55,9 @@ const Footer = () => {
 
 
                     <footer className="  p-4 ">
-                        <div className='flex justify-between  pt-5 '>
+                        <div className='lg:flex justify-between lg:text-left text-center pt-5 '>
                             <p>Copyright@Tufayelahmednayef.All rights reserved  by Mahbubur Rahman</p>
-                            <div className='flex gap-[46px]'> 
+                            <div className='flex lg:gap-[46px] gap-0 lg:justify-start justify-center text-center'> 
                                 <p>Privacy</p>
                                 <p>Security</p>
                                 <p>Terms</p>

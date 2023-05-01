@@ -10,18 +10,18 @@ const Service_section = () => {
     return (
         <>
             <div className='container mx-auto '>
-                <div className='grid xl:grid-cols-2 lg:grid-cols-1 gap-10 my-[130px] p-3'>
+                <div className='grid xl:grid-cols-2 grid-cols-1 gap-10 my-[130px] p-3'>
                     <div>
-                        <h1 className='text-[48px] font-semibold text-center xl:text-left'>Best Service, Right Time, Right People</h1>
+                        <h1 className='lg:text-[48px] text-[32px] font-semibold text-center xl:text-left'>Best Service, Right Time, Right People</h1>
                         <p className='text-lg mt-[30px] leading-loose'>It’s easier to reach your savings goals when you have the right savi ngs,asier to reach your savings goals when you have the right savings.It’s easier to reach your savings goals when you have the right savi ngs.reach your savings goals when you have the right savings.It’s easier to reach your savings goals when you have the right savi ngs.</p>
 
                     </div>
 
                     <div className='shadow-md px-5 '>
 
-                        <div className='flex justify-between gap-5 relative top-11'>
+                        <div className='lg:flex justify-between gap-5 relative top-11'>
                             {/* Free service */}
-                            <div className='services bg-black  px-5 py-10 box-menu'>
+                            <div className='services bg-black hover:duration-1000  px-5 py-10 box-menu'>
                                 <img className='mb-5' src={car} alt="" />
                                 <h1 className='text-2xl font-semibold text-white leading-loose '>Free Delivery</h1>
                                 <p className='text-white mt-[10px] leading-loose'>It’s easier to reach your savings goals when you have the right savi ngs,asier to reach your savings goals when you have the right savings.It’s easier to reach your savings goals when you have the right savi ngs.</p>
@@ -29,7 +29,7 @@ const Service_section = () => {
                             </div>
 
                             {/* Table Service */}
-                            <div className='services bg-black  px-5 py-10 box-menu'>
+                            <div className='services hover:duration-1000 bg-black lg:mt-0 mt-4  px-5 py-10 box-menu'>
                                 <img className='mb-5' src={table} alt="" />
                                 <h1 className='text-2xl font-semibold text-white leading-loose'>Table Service</h1>
                                 <p className='text-white mt-[10px] leading-loose'>It’s easier to reach your savings goals when you have the right savi ngs,asier to reach your savings goals when you have the right savings.It’s easier to reach your savings goals when you have the right savi ngs.</p>
@@ -45,8 +45,8 @@ const Service_section = () => {
                 {/* contact section */}
 
 
-                <div className='mt-[130px] flex '>
-                    <div className='contact-bg bg-black py-[80px] px-[76px] xl:w-[560px] box-menu  relative top-24 left-36'>
+                <div className='mt-[130px] lg:flex '>
+                    <div className='contact-bg bg-black lg:py-[80px] py-4 px-[76px] hover:duration-1000 xl:w-[560px] w-auto box-menu  lg:relative lg:top-24 lg:left-36 lg:mb-0 mb-4 lg:order-1 order-2'>
                         {/* <h1 className='font-bold text-[48px] text-white'>Contact us</h1>
                         <input className='input-section xl:w-[460px]  p-4 bg-black text-white ' placeholder='Name' type="text" />
                         <input className='input-section xl:w-[460px] my-[25px]  p-4 bg-black text-white ' placeholder='Email Address' type="email" />
@@ -57,7 +57,7 @@ const Service_section = () => {
                             <div className="card-body">
                                 <div className="form-control">
                                     <label className="label">
-                                        <span className="label-text text-white text-[48px]">Contact us</span>
+                                        <span className="label-text text-white text-[32px] lg:text-[48px]">Contact us</span>
                                     </label>
                                     <input type="text" placeholder="Name" className="input my-[25px] input-bordered input-section" />
                                 </div>
@@ -67,8 +67,8 @@ const Service_section = () => {
 
                                 </div>
                                 <textarea className="textarea textarea-bordered mt-[25px] input-section" placeholder="Message"></textarea>
-                                <div className="form-control mt-6">
-                                    <button className='btn btn-primary '>Send</button>
+                                <div className="form-control mt-6 ">
+                                    <button className='btn btn-primary lg:mb-0 '>Send</button>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ const Service_section = () => {
 
 
                     </div>
-                    <div className=''>
+                    <div className='lg:order-2 order-1'>
                         <img src={contact_bg} alt="" />
                     </div>
 
@@ -90,13 +90,13 @@ const Service_section = () => {
                 {/* Get off 40% */}
 
 
-                <div className='mt-[150px] rounded-t-xl bg-primary p-[62px] xl:flex justify-between items-center'>
-                    <div>
-                        <h1 className='text-[48px] font-semibold'>Get 40% off on your first order by joining now</h1>
+                <div className='mt-[150px] rounded-t-xl bg-primary p-[62px] flex lg:flex-row flex-col-reverse justify-between items-center'>
+                    <div className='lg:-mt-0 -mt-24'>
+                        <h1 className='lg:text-[48px] text-[32px]  font-semibold '>Get 40% off on your first order by joining now</h1>
                         <Link className=''><button className='px-4 py-2 mt-[40px] rounded-2xl bg-white  text-black  font-bold text-[16px] mb-6'>Get Started</button></Link>
 
                     </div>
-                    <img className='relative -mt-20 xl:mx-0 mx-auto' src={footerPasta} alt="" />
+                    <img className='relative lg:-mt-20  xl:mx-0 mx-auto lg:top-0 -top-32 ' src={footerPasta} alt="" />
                 </div>
 
 

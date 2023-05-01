@@ -27,8 +27,9 @@
 .menu {
     background-image: url(../../images/manu.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
+    
 }
 
 .menu-items {
@@ -99,3 +100,20 @@
     color: rgba(255, 255, 255, 0.7);
 
 }
+
+/* Slider menu */
+
+.menu2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #ADFD97;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .menu-open {
+    transform: translateX(0);
+  }
