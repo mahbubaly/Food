@@ -27,8 +27,9 @@
 .menu {
     background-image: url(../../images/manu.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+   
     background-position: center;
+    background-size: cover;
     
 }
 

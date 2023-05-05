@@ -4,6 +4,7 @@ import burger1 from '../images/burger 1.png'
 import burger2 from '../images/burger 2.png'
 import { Link, useNavigate } from 'react-router-dom';
 import Section_2 from './Section_2';
+import { AOS } from 'aos';
 
 
 const Items = () => {
@@ -27,33 +28,37 @@ const Items = () => {
                     </div>
                     <div className='md:flex  gap-10 mt-8'>
 
-                        <div className='grid xl:grid-cols-2 grid-cols-1 items-center  lg:gap-5 xl:gap-[30px] bg-white py-[40px] px-[30px] rounded-lg'>
-                            <div className='order-2 xl:order-1'>
-                                <h1 className='text-2xl font-bold'>The Bun Jovi.</h1>
-                                <p className='text-[16px] my-2 '> It’s easier to reach your savings goals when you have the right savi ngs,asier to reach your goals.It’s easier to reach your savings goals when you have the right savi ngs,asier to reach your goals.</p>
-                                <div className='flex justify-between gap-10 mt-6 items-center '>
-                                    <p className='text-[36px] font-bold mt-4'>$88</p>
-                                    <h1><Link> <button className='btn-all text-black mt-[25px] font-bold text-[16px]'>order now</button></Link> </h1>
+                        <div data-aos="fade-right"  data-aos-duration="1000">
+                            <div className='grid xl:grid-cols-2 grid-cols-1 items-center  lg:gap-5 xl:gap-[30px] bg-white py-[40px] px-[30px] rounded-lg'>
+                                <div className='order-2 xl:order-1'>
+                                    <h1 className='text-2xl font-bold'>The Bun Jovi.</h1>
+                                    <p className='text-[16px] my-2 '> It’s easier to reach your savings goals when you have the right savi ngs,asier to reach your goals.It’s easier to reach your savings goals when you have the right savi ngs,asier to reach your goals.</p>
+                                    <div className='flex justify-between gap-10 mt-6 items-center '>
+                                        <p className='text-[36px] font-bold mt-4'>$88</p>
+                                        <h1><Link> <button className='btn-all text-black mt-[25px] font-bold text-[16px]'>order now</button></Link> </h1>
+                                    </div>
+
                                 </div>
+                                <img className='mx-auto order-1 xl:order-2' src={burger1} alt="" />
 
                             </div>
-                            <img className='mx-auto order-1 xl:order-2' src={burger1} alt="" />
-
                         </div>
 
+                        <div data-aos="fade-left" data-aos-duration="1000">
 
-                        <div className='grid xl:grid-cols-2 grid-cols-1 items-center  lg:gap-5 xl:gap-[30px] bg-white py-[40px] px-[30px] rounded-lg'>
-                            <div className='order-2 xl:order-1'>
-                                <h1 className='text-2xl font-bold'>The Bun Jovi.</h1>
-                                <p className='text-[16px] my-2 '> It’s easier to reach your savings goals when you have the right savi ngs,asier to reach your goals.It’s easier to reach your savings goals when you have the right savi ngs,asier to reach your goals.</p>
-                                <div className='flex justify-between gap-10 mt-6 items-center '>
-                                    <p className='text-[36px] lg:text-left text-center font-bold mt-4'>$88</p>
-                                    <h1><Link> <button className='btn-all text-black mt-[25px] font-bold text-[16px]'>order now</button></Link> </h1>
+                            <div className='grid xl:grid-cols-2 grid-cols-1 items-center  lg:gap-5 xl:gap-[30px] bg-white py-[40px] px-[30px] rounded-lg'>
+                                <div className='order-2 xl:order-1'>
+                                    <h1 className='text-2xl font-bold'>The Bun Jovi.</h1>
+                                    <p className='text-[16px] my-2 '> It’s easier to reach your savings goals when you have the right savi ngs,asier to reach your goals.It’s easier to reach your savings goals when you have the right savi ngs,asier to reach your goals.</p>
+                                    <div className='flex justify-between gap-10 mt-6 items-center '>
+                                        <p className='text-[36px] lg:text-left text-center font-bold mt-4'>$88</p>
+                                        <h1><Link> <button className='btn-all text-black mt-[25px] font-bold text-[16px]'>order now</button></Link> </h1>
+                                    </div>
+
                                 </div>
+                                <img className='mx-auto order-1 xl:order-2' src={burger2} alt="" />
 
                             </div>
-                            <img className='mx-auto order-1 xl:order-2' src={burger2} alt="" />
-
                         </div>
 
                     </div>
