@@ -3,7 +3,7 @@ import car from '../images/car-logo.png'
 import table from '../images/table.png'
 import contact_bg from '../images/third-section.png'
 import footerPasta from '../images/Italiono Pasta.png'
-import './Styles/Style.css'
+import './Styles/Style.css' 
 import { Link } from 'react-router-dom';
 
 const Service_section = () => {
@@ -71,7 +71,7 @@ const Service_section = () => {
                                     <button className='btn btn-primary lg:mb-0 '>Send</button>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
 
 
 
